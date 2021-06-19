@@ -1,4 +1,5 @@
 class Stack:
+
     def __init__(self):
         self.val=[]
     def add(self,data):
@@ -25,3 +26,6 @@ if __name__ == '__main__':
     print("Stack after pop")
     print(stack.printstack())
     print(stack.peek())
+
+
+    #OUTPUT
